@@ -1,0 +1,1139 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#"
+     xml:base="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#has_accessories -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#has_accessories"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#has_branches -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#has_branches"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#has_brands -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#has_brands"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#works_as -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#works_as"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#AName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#AName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory_details"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#APName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#APName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance_Details"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#AcessoryCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#AcessoryCategory">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory_details"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory_details -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory_details"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance_Details -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance_Details"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Aprice -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Aprice">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory_details"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#BName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#BName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#BrandName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#BrandName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand_Details"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand_Details -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand_Details"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#CName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#CName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Customer_Details"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Category -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Category">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance_Details"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Cateogory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Cateogory">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand_Details"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Customer_Details -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Customer_Details"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#EBranch -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#EBranch">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Employee"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#EName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#EName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Employee"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Employee -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Employee"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#JobRole -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#JobRole">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Employee"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Location">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand_Details"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#NoOfitempurchased -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#NoOfitempurchased">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Customer_Details"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#PurchasedItem -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#PurchasedItem">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Stock -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Stock">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#TotalNOStaffs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#TotalNOStaffs">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#address">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Customer_Details"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#price -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#price">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand_Details"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Customer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Customer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Device">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Owner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Owner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand"/>
+        <Cateogory>Laptop</Cateogory>
+        <Name>Laptop</Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory"/>
+        <AName>ipad Backcase</AName>
+        <AcessoryCategory>TabletBackcase</AcessoryCategory>
+        <Aprice>50£</Aprice>
+        <BName>Cambridge</BName>
+        <BrandName>Apple</BrandName>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory"/>
+        <AName>SamsungTablet</AName>
+        <AcessoryCategory>TabletBackcase</AcessoryCategory>
+        <Aprice>25£</Aprice>
+        <BName>Oxford</BName>
+        <BrandName>Samsung</BrandName>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory"/>
+        <AName>Lenovo Keyboard</AName>
+        <AcessoryCategory>Keyboard</AcessoryCategory>
+        <Aprice>25£</Aprice>
+        <BName>SilverStone</BName>
+        <BrandName>Lenovo</BrandName>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory"/>
+        <AName>Dell keyboard</AName>
+        <AcessoryCategory>Keyboard</AcessoryCategory>
+        <Aprice>30£</Aprice>
+        <BName>Bedfordshire</BName>
+        <BrandName>Dell</BrandName>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory"/>
+        <AName>3rd generation Airpod</AName>
+        <AcessoryCategory>Airpods</AcessoryCategory>
+        <Aprice>120£</Aprice>
+        <BName>Cambridge</BName>
+        <BrandName>Apple</BrandName>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory"/>
+        <AName>BoatAirpods</AName>
+        <AcessoryCategory>Airpods</AcessoryCategory>
+        <Aprice>50£</Aprice>
+        <BName>Oxford</BName>
+        <BrandName>BoatRockerz</BrandName>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory"/>
+        <AName>Dell Mouse</AName>
+        <AcessoryCategory>Mouse Wireless</AcessoryCategory>
+        <Aprice>20£</Aprice>
+        <BName>Silverstone</BName>
+        <BrandName>Dell</BrandName>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory"/>
+        <AName>LenovoMouse</AName>
+        <AcessoryCategory>Mouse Wireless</AcessoryCategory>
+        <Aprice>80£</Aprice>
+        <BName>Bedfordshire</BName>
+        <BrandName>Lenovo</BrandName>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory"/>
+        <AName>Dell Mouse</AName>
+        <AcessoryCategory>Wired Mouse</AcessoryCategory>
+        <Aprice>50£</Aprice>
+        <BName>Cambridge</BName>
+        <BrandName>Dell</BrandName>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory"/>
+        <AName>Lenovo Mouse</AName>
+        <AcessoryCategory>Wired Mouse</AcessoryCategory>
+        <Aprice>45£</Aprice>
+        <BName>Oxford</BName>
+        <BrandName>Lenovo</BrandName>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory"/>
+        <AName>iphone  Backcase</AName>
+        <AcessoryCategory>Mobile Backcase</AcessoryCategory>
+        <Aprice>25£</Aprice>
+        <BName>SilverStone</BName>
+        <BrandName>Apple</BrandName>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory"/>
+        <AName>Lenovo Bag</AName>
+        <AcessoryCategory>Laptop Bag</AcessoryCategory>
+        <Aprice>30£</Aprice>
+        <BName>BedfordShire</BName>
+        <BrandName>Lenovo</BrandName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Airpods -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Airpods"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Apple -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Apple">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand"/>
+        <has_accessories rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Airpods"/>
+        <has_accessories rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#smartwatch"/>
+        <Cateogory>Apple</Cateogory>
+        <Name>Ipad</Name>
+        <Name>Iphone</Name>
+        <Name>Macbook</Name>
+        <Name>Watch</Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>LG juice Mixer</AName>
+        <Aprice>25£</Aprice>
+        <BName>Oxford</BName>
+        <BrandName>LG</BrandName>
+        <Category>Kitchen</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Juice Mixer</AName>
+        <Aprice>35££</Aprice>
+        <BName>Silverstone</BName>
+        <BrandName>Prestige</BrandName>
+        <Category>Kitchen</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>LGWashing machine</AName>
+        <AcessoryCategory>Home</AcessoryCategory>
+        <Aprice>850£</Aprice>
+        <BName>Cambridge</BName>
+        <BrandName>LG</BrandName>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Samsung Washing Machine</AName>
+        <Aprice>900£</Aprice>
+        <BName>Oxford</BName>
+        <BrandName>Samsung</BrandName>
+        <Category>Home</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>whirlpoolWashingMachine</AName>
+        <Aprice>500£</Aprice>
+        <BName>Silverstone</BName>
+        <BrandName>WhirlPool</BrandName>
+        <Category>Home</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Home Theater</AName>
+        <Aprice>500£</Aprice>
+        <BName>BedfordShire</BName>
+        <BrandName>sony</BrandName>
+        <Category>Home</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Home Theater</AName>
+        <Aprice>500£</Aprice>
+        <BName>Cambridge</BName>
+        <BrandName>Samsung</BrandName>
+        <Category>Home</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Home Theater</AName>
+        <Aprice>800£</Aprice>
+        <BName>Oxford</BName>
+        <BrandName>LG</BrandName>
+        <Category>Home</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Refrigarator</AName>
+        <Aprice>500£</Aprice>
+        <BName>Silverstone</BName>
+        <BrandName>LG</BrandName>
+        <Category>Kitchen</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Appliance9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Refirgrator</AName>
+        <Aprice>850£</Aprice>
+        <BrandName>Sony</BrandName>
+        <Category>Kitchen</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+        <Stock>Bedfordshire</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch"/>
+        <BName>Cambridge Store</BName>
+        <BrandName>Samsung, Apple, Sony, Whirlpool</BrandName>
+        <Location>Cambridge</Location>
+        <PurchasedItem rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</PurchasedItem>
+        <TotalNOStaffs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05</TotalNOStaffs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch"/>
+        <BName>oxford store</BName>
+        <BrandName>Apple, Sony, HP, Dell, Lenovo, Samsung</BrandName>
+        <Location>Oxford</Location>
+        <PurchasedItem rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</PurchasedItem>
+        <TotalNOStaffs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</TotalNOStaffs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch"/>
+        <BName>Silverstone Store</BName>
+        <BrandName>Apple, LG, Sony, Samsung</BrandName>
+        <Location>silverstone</Location>
+        <PurchasedItem rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</PurchasedItem>
+        <TotalNOStaffs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05</TotalNOStaffs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch"/>
+        <BName>Bedfordshire store</BName>
+        <BrandName>Apple,Sony,Samsung, HP, Dell,</BrandName>
+        <Location>Bedfordshire</Location>
+        <PurchasedItem rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</PurchasedItem>
+        <TotalNOStaffs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</TotalNOStaffs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Branch"/>
+        <BName>Cambridge Store</BName>
+        <BrandName>Apple, Sony, LG, Samsung, HP, Dell, Lenovo</BrandName>
+        <Location>Cambridge</Location>
+        <PurchasedItem rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</PurchasedItem>
+        <TotalNOStaffs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</TotalNOStaffs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#DELL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#DELL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand"/>
+        <Cateogory>Laptop</Cateogory>
+        <Name>Laptop</Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Earpods -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Earpods"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#HP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#HP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand"/>
+        <Cateogory>Laptop</Cateogory>
+        <Name>HP</Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#LG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#LG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand"/>
+        <Name>HomeTheater</Name>
+        <Name>Refrigarator</Name>
+        <Name>WashingMachine</Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Laptop1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Laptop1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>LG Laptop</AName>
+        <Aprice>800£</Aprice>
+        <BName>Cambridge</BName>
+        <BrandName>LG</BrandName>
+        <Category>Laptop</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Laptop2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Laptop2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>HP laptop</AName>
+        <Aprice>850£</Aprice>
+        <BName>Oxford</BName>
+        <BrandName>HP</BrandName>
+        <Category>Laptop</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Laptop3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Laptop3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Dell laptop</AName>
+        <Aprice>850£</Aprice>
+        <BName>SilverStone</BName>
+        <BrandName>Dell</BrandName>
+        <Category>Laptop</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Laptop4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Laptop4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Acer laptop</AName>
+        <Aprice>500£</Aprice>
+        <BName>Bedfordshire</BName>
+        <BrandName>Acer</BrandName>
+        <Category>Laptop</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Laptop5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Laptop5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>MacBook Air</AName>
+        <Aprice>850£</Aprice>
+        <BName>Cambridge</BName>
+        <BrandName>Apple</BrandName>
+        <Category>Laptop</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Laptop6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Laptop6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Macbook pro</AName>
+        <Aprice>1500£</Aprice>
+        <BName>Silverstone</BName>
+        <BrandName>Apple</BrandName>
+        <Category>Laptop</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Laptop7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Laptop7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Gaming laptop</AName>
+        <Aprice>1750£</Aprice>
+        <BName>Bedfordshire</BName>
+        <BrandName>MS_Leapord</BrandName>
+        <Category>Laptop</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Lenovo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Lenovo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand"/>
+        <Cateogory>Laptop</Cateogory>
+        <Name>Laptop</Name>
+        <Name>Mobile Phone</Name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#MSL_lepaord -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#MSL_lepaord">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Macbook -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Macbook">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Microsoft_windows -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Microsoft_windows">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>iphone 6s</AName>
+        <Aprice>450£</Aprice>
+        <BName>Cambridge</BName>
+        <BrandName>Apple</BrandName>
+        <Category>Mobile</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>iphone7</AName>
+        <Aprice>900£</Aprice>
+        <BName>Oxford</BName>
+        <BrandName>Apple</BrandName>
+        <Category>Mobile</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>iphone 12</AName>
+        <Aprice>1000£</Aprice>
+        <BName>Silverstone</BName>
+        <BrandName>Apple</BrandName>
+        <Category>Mobile</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>iphone14</AName>
+        <Aprice>1400£</Aprice>
+        <BName>Bedfordshire</BName>
+        <BrandName>Apple</BrandName>
+        <Category>Mobile</Category>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Samsung Galaxy</AName>
+        <Aprice>500£</Aprice>
+        <BName>Cambridge</BName>
+        <BrandName>Samsung</BrandName>
+        <Category>Mobile</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Google Pixel</AName>
+        <Aprice>800£</Aprice>
+        <BName>Oxford</BName>
+        <BrandName>Google</BrandName>
+        <Category>Mobile</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Windows Phone</AName>
+        <Aprice>500£</Aprice>
+        <BName>Bedforshire</BName>
+        <BrandName>Microsoft windows</BrandName>
+        <Category>Mobile</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Nokia Phone</AName>
+        <Aprice>250£</Aprice>
+        <BName>Cambridge</BName>
+        <BrandName>Nokia</BrandName>
+        <Category>Mobile</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>OnePlus</AName>
+        <Aprice>500£</Aprice>
+        <BName>Oxford</BName>
+        <BrandName>Oneplus</BrandName>
+        <Category>Mobile</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Mobile9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#ProductItem"/>
+        <AName>Lenovo phone</AName>
+        <Aprice>500£</Aprice>
+        <BName>Bedfordshire</BName>
+        <BrandName>Lenovo</BrandName>
+        <Category>Mobile</Category>
+        <Stock rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</Stock>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Samsung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Samsung">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#customer1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#customer1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Customer"/>
+        <BName>Cambridge</BName>
+        <CName>Advith</CName>
+        <NoOfitempurchased rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">01</NoOfitempurchased>
+        <address>Cambridge</address>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#customer2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#customer2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Customer"/>
+        <BName>Oxford</BName>
+        <CName>Nick</CName>
+        <NoOfitempurchased rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</NoOfitempurchased>
+        <address>Oxford</address>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#customer3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#customer3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Customer"/>
+        <BName>Silverstone</BName>
+        <CName>chole</CName>
+        <NoOfitempurchased rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</NoOfitempurchased>
+        <address>Silverstone</address>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#customer4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#customer4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Customer"/>
+        <BName>Cambridge</BName>
+        <CName>Jordan</CName>
+        <NoOfitempurchased rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</NoOfitempurchased>
+        <address>Cambridge</address>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#customer5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#customer5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Customer"/>
+        <BName>Cambridge</BName>
+        <CName>Daniel</CName>
+        <NoOfitempurchased rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</NoOfitempurchased>
+        <address>Bedfordshire</address>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#smartwatch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#smartwatch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#sony -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#sony">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kamalakar/ontologies/2022/10/untitled-ontology-302#Acessory"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
